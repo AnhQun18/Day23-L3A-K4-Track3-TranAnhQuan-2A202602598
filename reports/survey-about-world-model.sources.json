@@ -1,0 +1,314 @@
+[
+  {
+    "n": 1,
+    "id": "1803.10122",
+    "url": "https://arxiv.org/abs/1803.10122",
+    "title": "World Models (Ha & Schmidhuber)",
+    "date": "2018-03-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "1811.04551",
+    "url": "https://arxiv.org/abs/1811.04551",
+    "title": "Learning Latent Dynamics for Planning from Pixels (PlaNet)",
+    "date": "2018-11-12",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "1912.01603",
+    "url": "https://arxiv.org/abs/1912.01603",
+    "title": "Dream to Control: Learning Behaviors by Latent Imagination (Dreamer)",
+    "date": "2019-12-03",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2301.04104",
+    "url": "https://arxiv.org/abs/2301.04104",
+    "title": "Mastering Diverse Domains through World Models (DreamerV3)",
+    "date": "2023-01-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "1911.08265",
+    "url": "https://arxiv.org/abs/1911.08265",
+    "title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model (MuZero)",
+    "date": "2019-11-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2310.16828",
+    "url": "https://arxiv.org/abs/2310.16828",
+    "title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
+    "date": "2023-10-25",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2010.02193",
+    "url": "https://arxiv.org/abs/2010.02193",
+    "title": "Mastering Atari with Discrete World Models (DreamerV2)",
+    "date": "2020-10-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "2405.12399",
+    "url": "https://arxiv.org/abs/2405.12399",
+    "title": "Diffusion for World Modeling: Visual Details Matter in Atari (DIAMOND)",
+    "date": "2024-05-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2408.14837",
+    "url": "https://arxiv.org/abs/2408.14837",
+    "title": "Diffusion Models Are Real-Time Game Engines (GameNGen)",
+    "date": "2024-08-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "openai-video-generation-models-as-world-simulators",
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "title": "Video generation models as world simulators (Sora technical report)",
+    "date": "2024-02-15",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2503.20523",
+    "url": "https://arxiv.org/abs/2503.20523",
+    "title": "GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving",
+    "date": "2025-03-26",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2501.03575",
+    "url": "https://arxiv.org/abs/2501.03575",
+    "title": "Cosmos World Foundation Model Platform for Physical AI",
+    "date": "2025-01-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "2301.08243",
+    "url": "https://arxiv.org/abs/2301.08243",
+    "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture (I-JEPA)",
+    "date": "2023-01-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 14,
+    "id": "2404.08471",
+    "url": "https://arxiv.org/abs/2404.08471",
+    "title": "Revisiting Feature Prediction for Learning Visual Representations from Video (V-JEPA)",
+    "date": "2024-02-15",
+    "source": "arxiv"
+  },
+  {
+    "n": 15,
+    "id": "2506.09985",
+    "url": "https://arxiv.org/abs/2506.09985",
+    "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+    "date": "2025-06-11",
+    "source": "arxiv"
+  },
+  {
+    "n": 16,
+    "id": "deepmind-google-blog-genie-3",
+    "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/",
+    "title": "Genie 3: A new frontier for world models",
+    "date": "2025-08-05",
+    "source": "web"
+  },
+  {
+    "n": 17,
+    "id": "2508.13009",
+    "url": "https://huggingface.co/papers/2508.13009",
+    "title": "Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model",
+    "date": "2025-08-18",
+    "source": "hf-daily"
+  },
+  {
+    "n": 18,
+    "id": "2609.17909",
+    "url": "https://arxiv.org/abs/2609.17909",
+    "title": "Zing-0.5: Toward Playable Worlds with Real-Time Joint Action and Text Control",
+    "date": "2026-09-15",
+    "source": "arxiv"
+  },
+  {
+    "n": 19,
+    "id": "2502.20694",
+    "url": "https://arxiv.org/abs/2502.20694",
+    "title": "WorldModelBench: Judging Video Generation Models As World Models",
+    "date": "2025-02-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 20,
+    "id": "2504.00983",
+    "url": "https://arxiv.org/abs/2504.00983",
+    "title": "WorldScore: A Unified Evaluation Benchmark for World Generation",
+    "date": "2025-04-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 21,
+    "id": "2410.18072",
+    "url": "https://arxiv.org/abs/2410.18072",
+    "title": "WorldSimBench: Towards Video Generation Models as World Simulators",
+    "date": "2024-10-23",
+    "source": "arxiv"
+  },
+  {
+    "n": 22,
+    "id": "2211.10831",
+    "url": "https://arxiv.org/abs/2211.10831",
+    "title": "Joint Embedding Predictive Architectures Focus on Slow Features",
+    "date": "2022-11-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 23,
+    "id": "1809.01999",
+    "url": "https://arxiv.org/abs/1809.01999",
+    "title": "Recurrent World Models Facilitate Policy Evolution",
+    "date": "2018-09-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 24,
+    "id": "2606.00133",
+    "url": "https://arxiv.org/abs/2606.00133",
+    "title": "World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications",
+    "date": "2026-05-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 25,
+    "id": "BZ5a1r-kVsf",
+    "url": "https://openreview.net/pdf?id=BZ5a1r-kVsf",
+    "title": "A Path Towards Autonomous Machine Intelligence (position paper, Y. LeCun)",
+    "date": "2022-06-27",
+    "source": "web"
+  },
+  {
+    "n": 26,
+    "id": "2203.04955",
+    "url": "https://arxiv.org/abs/2203.04955",
+    "title": "Temporal Difference Learning for Model Predictive Control (TD-MPC)",
+    "date": "2022-03-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 27,
+    "id": "2405.15083",
+    "url": "https://huggingface.co/papers/2405.15083",
+    "title": "MuDreamer: Learning Predictive World Models without Reconstruction",
+    "date": "2024-05-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 28,
+    "id": "2507.05169",
+    "url": "https://arxiv.org/abs/2507.05169",
+    "title": "Critique of World Model",
+    "date": "2025-07-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 29,
+    "id": "paragiri-jepa-reconstruct",
+    "url": "https://www.paragiri.com/writing/jepa-reconstruct/",
+    "title": "When does pixel reconstruction help a JEPA world model plan?",
+    "date": "2026-10-05",
+    "source": "web"
+  },
+  {
+    "n": 30,
+    "id": "2609.03565",
+    "url": "https://huggingface.co/papers/2609.03565",
+    "title": "Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planning",
+    "date": "2026-09-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 31,
+    "id": "2608.06799",
+    "url": "https://huggingface.co/papers/2608.06799",
+    "title": "Is Forward Prediction Enough? Physical State Grounding for JEPA World Models (PSG-JEPA)",
+    "date": "2026-08-06",
+    "source": "hf-search"
+  },
+  {
+    "n": 32,
+    "id": "2402.15391",
+    "url": "https://huggingface.co/papers/2402.15391",
+    "title": "Genie: Generative Interactive Environments",
+    "date": "2024-02-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 33,
+    "id": "deepmind-google-blog-genie-2",
+    "url": "https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/",
+    "title": "Genie 2: A large-scale foundation world model",
+    "date": "2024-12-04",
+    "source": "web"
+  },
+  {
+    "n": 34,
+    "id": "2309.17080",
+    "url": "https://arxiv.org/abs/2309.17080",
+    "title": "GAIA-1: A Generative World Model for Autonomous Driving",
+    "date": "2023-09-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 35,
+    "id": "2506.09042",
+    "url": "https://huggingface.co/papers/2506.09042",
+    "title": "Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models",
+    "date": "2025-06-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 36,
+    "id": "2511.09057",
+    "url": "https://huggingface.co/papers/2511.09057",
+    "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
+    "date": "2025-11-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 37,
+    "id": "2609.31893",
+    "url": "https://arxiv.org/abs/2609.31893",
+    "title": "CyberWorld: World Models for Sample-Efficient Autonomous Cyber Defense",
+    "date": "2026-09-25",
+    "source": "arxiv"
+  },
+  {
+    "n": 38,
+    "id": "2602.10098",
+    "url": "https://huggingface.co/papers/2602.10098",
+    "title": "VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model",
+    "date": "2026-02-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 39,
+    "id": "2512.24497",
+    "url": "https://huggingface.co/papers/2512.24497",
+    "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
+    "date": "2025-12-30",
+    "source": "hf-search"
+  }
+]

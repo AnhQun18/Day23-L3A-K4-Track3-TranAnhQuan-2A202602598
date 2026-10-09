@@ -1,0 +1,362 @@
+[
+  {
+    "n": 1,
+    "id": "2210.03629",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "date": "2022-10-06",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "2302.07842",
+    "url": "https://arxiv.org/abs/2302.07842",
+    "title": "Augmented Language Models: a Survey",
+    "date": "2023-02-15",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2304.08354",
+    "url": "https://arxiv.org/abs/2304.08354",
+    "title": "Tool Learning with Foundation Models",
+    "date": "2023-04-17",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2302.04761",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "date": "2023-02-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "2307.16789",
+    "url": "https://arxiv.org/abs/2307.16789",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+    "date": "2023-07-31",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2305.15334",
+    "url": "https://arxiv.org/abs/2305.15334",
+    "title": "Gorilla: Large Language Model Connected with Massive APIs",
+    "date": "2023-05-24",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2307.13854",
+    "url": "https://arxiv.org/abs/2307.13854",
+    "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+    "date": "2023-07-25",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "2311.12983",
+    "url": "https://arxiv.org/abs/2311.12983",
+    "title": "GAIA: A Benchmark for General AI Assistants",
+    "date": "2023-11-21",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2404.07972",
+    "url": "https://arxiv.org/abs/2404.07972",
+    "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+    "date": "2024-04-11",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2401.13919",
+    "url": "https://arxiv.org/abs/2401.13919",
+    "title": "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+    "date": "2024-01-25",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2401.16158",
+    "url": "https://arxiv.org/abs/2401.16158",
+    "title": "Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception",
+    "date": "2024-01-29",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2308.08155",
+    "url": "https://arxiv.org/abs/2308.08155",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "date": "2023-08-16",
+    "source": "web"
+  },
+  {
+    "n": 13,
+    "id": "2308.00352",
+    "url": "https://arxiv.org/abs/2308.00352",
+    "title": "MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework",
+    "date": "2023-08-01",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "2401.07324",
+    "url": "https://huggingface.co/papers/2401.07324",
+    "title": "Small LLMs Are Weak Tool Learners: A Multi-LLM Agent (alpha-UMi)",
+    "date": "2024-01-14",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "2403.02691",
+    "url": "https://arxiv.org/abs/2403.02691",
+    "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+    "date": "2024-03-05",
+    "source": "web"
+  },
+  {
+    "n": 16,
+    "id": "2609.22949",
+    "url": "https://arxiv.org/abs/2609.22949",
+    "title": "Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems",
+    "date": "2026-09-19",
+    "source": "web"
+  },
+  {
+    "n": 17,
+    "id": "MCPTox-AAAI-40895",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40895",
+    "title": "MCPTox: A Benchmark for Tool Poisoning on Real-World MCP Servers",
+    "date": "2026-03-14",
+    "source": "web"
+  },
+  {
+    "n": 18,
+    "id": "2609.32691",
+    "url": "https://arxiv.org/abs/2609.32691",
+    "title": "Silent Failures in Agentic Security Evaluation: A Validated Harness for Tool-Call Mediation Under Indirect Prompt Injection",
+    "date": "2026-09-26",
+    "source": "web"
+  },
+  {
+    "n": 19,
+    "id": "2302.12173",
+    "url": "https://arxiv.org/abs/2302.12173",
+    "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+    "date": "2023-05-05",
+    "source": "web"
+  },
+  {
+    "n": 20,
+    "id": "2201.11903",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "date": "2022-01-28",
+    "source": "web"
+  },
+  {
+    "n": 21,
+    "id": "2210.03350",
+    "url": "https://arxiv.org/abs/2210.03350",
+    "title": "Measuring and Narrowing the Compositionality Gap in Language Models (Self-Ask)",
+    "date": "2022-10-07",
+    "source": "web"
+  },
+  {
+    "n": 22,
+    "id": "2205.10625",
+    "url": "https://arxiv.org/abs/2205.10625",
+    "title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+    "date": "2022-05-21",
+    "source": "arxiv"
+  },
+  {
+    "n": 23,
+    "id": "2305.10601",
+    "url": "https://arxiv.org/abs/2305.10601",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "date": "2023-05-17",
+    "source": "web"
+  },
+  {
+    "n": 24,
+    "id": "2307.11768",
+    "url": "https://arxiv.org/abs/2307.11768",
+    "title": "Question Decomposition Improves the Faithfulness of Model-Generated Reasoning",
+    "date": "2023-07-17",
+    "source": "web"
+  },
+  {
+    "n": 25,
+    "id": "2402.15538",
+    "url": "https://huggingface.co/papers/2402.15538",
+    "title": "AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System",
+    "date": "2024-02-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 26,
+    "id": "2412.15495",
+    "url": "https://huggingface.co/papers/2412.15495",
+    "title": "TL-Training: A Task-Feature-Based Framework for Training Large Language Models in Tool Use",
+    "date": "2024-12-19",
+    "source": "hf-search"
+  },
+  {
+    "n": 27,
+    "id": "2310.06770",
+    "url": "https://arxiv.org/abs/2310.06770",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "date": "2023-10-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 28,
+    "id": "2410.07095",
+    "url": "https://arxiv.org/abs/2410.07095",
+    "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+    "date": "2024-10-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 29,
+    "id": "2308.03688",
+    "url": "https://arxiv.org/abs/2308.03688",
+    "title": "AgentBench: Evaluating LLMs as Agents",
+    "date": "2023-08-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 30,
+    "id": "2406.12045",
+    "url": "https://arxiv.org/abs/2406.12045",
+    "title": "tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+    "date": "2024-06-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 31,
+    "id": "2507.02825",
+    "url": "https://huggingface.co/papers/2507.02825",
+    "title": "Establishing Best Practices for Building Rigorous Agentic Benchmarks",
+    "date": "2025-07-03",
+    "source": "hf-search"
+  },
+  {
+    "n": 32,
+    "id": "2605.16909",
+    "url": "https://huggingface.co/papers/2605.16909",
+    "title": "TOBench: A Task-Oriented Omni-Modal Benchmark for Real-World Tool-Using Agents",
+    "date": "2026-05-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 33,
+    "id": "2405.14573",
+    "url": "https://arxiv.org/abs/2405.14573",
+    "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+    "date": "2024-05-23",
+    "source": "web"
+  },
+  {
+    "n": 34,
+    "id": "2510.24563",
+    "url": "https://huggingface.co/papers/2510.24563",
+    "title": "OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents",
+    "date": "2025-10-28",
+    "source": "hf-search"
+  },
+  {
+    "n": 35,
+    "id": "2303.17760",
+    "url": "https://arxiv.org/abs/2303.17760",
+    "title": "CAMEL: Communicative Agents for Mind Exploration of Large Language Model Society",
+    "date": "2023-03-31",
+    "source": "web"
+  },
+  {
+    "n": 36,
+    "id": "2308.10848",
+    "url": "https://arxiv.org/abs/2308.10848",
+    "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors",
+    "date": "2023-08-21",
+    "source": "web"
+  },
+  {
+    "n": 37,
+    "id": "2501.06322",
+    "url": "https://huggingface.co/papers/2501.06322",
+    "title": "Multi-Agent Collaboration Mechanisms: A Survey of LLMs",
+    "date": "2025-01-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 38,
+    "id": "2406.13352",
+    "url": "https://arxiv.org/abs/2406.13352",
+    "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+    "date": "2024-06-19",
+    "source": "web"
+  },
+  {
+    "n": 39,
+    "id": "invariantlabs-mcp-tool-poisoning",
+    "url": "https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks",
+    "title": "MCP Security Notification: Tool Poisoning Attacks",
+    "date": "2025-04-01",
+    "source": "web"
+  },
+  {
+    "n": 40,
+    "id": "owasp-mcp-tool-poisoning",
+    "url": "https://github.com/OWASP/www-community/blob/master/pages/attacks/MCP_Tool_Poisoning.md",
+    "title": "MCP Tool Poisoning (OWASP community attack page)",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 41,
+    "id": "mcp-security-best-practices",
+    "url": "https://modelcontextprotocol.io/docs/draft/tutorials/security/security_best_practices",
+    "title": "Security Best Practices - Model Context Protocol (official spec docs)",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 42,
+    "id": "2509.25370",
+    "url": "https://huggingface.co/papers/2509.25370",
+    "title": "Where LLM Agents Fail and How They can Learn From Failures",
+    "date": "2025-09-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 43,
+    "id": "2601.10156",
+    "url": "https://huggingface.co/papers/2601.10156",
+    "title": "ToolSafe: Enhancing Tool Invocation Safety of LLM-based Agents via Proactive Step-level Guardrail and Feedback",
+    "date": "2026-01-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 44,
+    "id": "2503.22738",
+    "url": "https://huggingface.co/papers/2503.22738",
+    "title": "ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning",
+    "date": "2025-03-26",
+    "source": "hf-search"
+  },
+  {
+    "n": 45,
+    "id": "2608.02645",
+    "url": "https://huggingface.co/papers/2608.02645",
+    "title": "Verified Tool Calls Improve LLM Agent Reliability Under Non-Atomic Failures",
+    "date": "2026-07-30",
+    "source": "hf-search"
+  }
+]

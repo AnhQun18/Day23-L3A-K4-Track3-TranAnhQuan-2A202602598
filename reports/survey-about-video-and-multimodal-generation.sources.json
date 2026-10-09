@@ -1,0 +1,514 @@
+[
+  {
+    "n": 1,
+    "id": "2604.06339",
+    "url": "https://arxiv.org/abs/2604.06339",
+    "title": "Evolution of Video Generative Foundations",
+    "date": "2026-04-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2310.10647",
+    "url": "https://huggingface.co/papers/2310.10647",
+    "title": "A Survey on Video Diffusion Models",
+    "date": "2023-10-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2112.10752",
+    "url": "https://arxiv.org/abs/2112.10752",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "date": "2021-12-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2212.09748",
+    "url": "https://arxiv.org/abs/2212.09748",
+    "title": "Scalable Diffusion Models with Transformers",
+    "date": "2022-12-19",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "sora-report",
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "title": "Video generation models as world simulators",
+    "date": "2024-02-15",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2412.20404",
+    "url": "https://arxiv.org/abs/2412.20404",
+    "title": "Open-Sora: Democratizing Efficient Video Production for All",
+    "date": "2024-12-29",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "2210.02747",
+    "url": "https://arxiv.org/abs/2210.02747",
+    "title": "Flow Matching for Generative Modeling",
+    "date": "2022-10-06",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2209.03003",
+    "url": "https://arxiv.org/abs/2209.03003",
+    "title": "Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow",
+    "date": "2022-09-07",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2408.11039",
+    "url": "https://arxiv.org/abs/2408.11039",
+    "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model",
+    "date": "2024-08-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "2405.09818",
+    "url": "https://arxiv.org/abs/2405.09818",
+    "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+    "date": "2024-05-16",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2409.18869",
+    "url": "https://arxiv.org/abs/2409.18869",
+    "title": "Emu3: Next-Token Prediction is All You Need",
+    "date": "2024-09-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "2408.12528",
+    "url": "https://arxiv.org/abs/2408.12528",
+    "title": "Show-o: One Single Transformer to Unify Multimodal Understanding and Generation",
+    "date": "2024-08-22",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "2410.13848",
+    "url": "https://arxiv.org/abs/2410.13848",
+    "title": "Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation",
+    "date": "2024-10-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 14,
+    "id": "2410.05203",
+    "url": "https://arxiv.org/abs/2410.05203",
+    "title": "Beyond FVD: Enhanced Evaluation Metrics for Video Generation Quality",
+    "date": "2024-10-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 15,
+    "id": "2510.07441",
+    "url": "https://arxiv.org/abs/2510.07441",
+    "title": "DynamicEval: Rethinking Evaluation for Dynamic Text-to-Video Synthesis",
+    "date": "2025-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 16,
+    "id": "2507.11245",
+    "url": "https://arxiv.org/abs/2507.11245",
+    "title": "NarrLV: Towards a Comprehensive Narrative-Centric Evaluation for Long Video Generation",
+    "date": "2025-07-15",
+    "source": "arxiv"
+  },
+  {
+    "n": 17,
+    "id": "2603.06577",
+    "url": "https://huggingface.co/papers/2603.06577",
+    "title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
+    "date": "2026-03-06",
+    "source": "hf-search"
+  },
+  {
+    "n": 18,
+    "id": "2503.09642",
+    "url": "https://arxiv.org/abs/2503.09642",
+    "title": "Open-Sora 2.0: Training a Commercial-Level Video Generation Model in $200k",
+    "date": "2025-03-12",
+    "source": "web"
+  },
+  {
+    "n": 19,
+    "id": "2006.11239",
+    "url": "https://arxiv.org/abs/2006.11239",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "date": "2020-06-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 20,
+    "id": "2204.03458",
+    "url": "https://arxiv.org/abs/2204.03458",
+    "title": "Video Diffusion Models",
+    "date": "2022-04-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 21,
+    "id": "2210.02303",
+    "url": "https://arxiv.org/abs/2210.02303",
+    "title": "Imagen Video: High Definition Video Generation with Diffusion Models",
+    "date": "2022-10-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 22,
+    "id": "2104.10157",
+    "url": "https://arxiv.org/abs/2104.10157",
+    "title": "VideoGPT: Video Generation using VQ-VAE and Transformers",
+    "date": "2021-04-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 23,
+    "id": "2402.17177",
+    "url": "https://arxiv.org/abs/2402.17177",
+    "title": "Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models",
+    "date": "2024-02-27",
+    "source": "web"
+  },
+  {
+    "n": 24,
+    "id": "2401.03048",
+    "url": "https://huggingface.co/papers/2401.03048",
+    "title": "Latte: Latent Diffusion Transformer for Video Generation",
+    "date": "2024-01-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 25,
+    "id": "2312.06662",
+    "url": "https://arxiv.org/abs/2312.06662",
+    "title": "Photorealistic Video Generation with Diffusion Models (W.A.L.T)",
+    "date": "2023-12-11",
+    "source": "web"
+  },
+  {
+    "n": 26,
+    "id": "2412.00131",
+    "url": "https://arxiv.org/abs/2412.00131",
+    "title": "Open-Sora Plan: Open-Source Large Video Generation Model",
+    "date": "2024-11-28",
+    "source": "web"
+  },
+  {
+    "n": 27,
+    "id": "2505.13389",
+    "url": "https://arxiv.org/abs/2505.13389",
+    "title": "VSA: Faster Video Diffusion with Trainable Sparse Attention",
+    "date": "2025-05-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 28,
+    "id": "2409.12191",
+    "url": "https://arxiv.org/abs/2409.12191",
+    "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+    "date": "2024-09-18",
+    "source": "arxiv"
+  },
+  {
+    "n": 29,
+    "id": "2408.06072",
+    "url": "https://huggingface.co/papers/2408.06072",
+    "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+    "date": "2024-08-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 30,
+    "id": "2412.03603",
+    "url": "https://huggingface.co/papers/2412.03603",
+    "title": "HunyuanVideo: A Systematic Framework For Large Video Generative Models",
+    "date": "2024-12-03",
+    "source": "hf-search"
+  },
+  {
+    "n": 31,
+    "id": "2410.13720",
+    "url": "https://huggingface.co/papers/2410.13720",
+    "title": "Movie Gen: A Cast of Media Foundation Models",
+    "date": "2024-10-17",
+    "source": "hf-search"
+  },
+  {
+    "n": 32,
+    "id": "2403.03206",
+    "url": "https://huggingface.co/papers/2403.03206",
+    "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+    "date": "2024-03-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 33,
+    "id": "2411.17470",
+    "url": "https://huggingface.co/papers/2411.17470",
+    "title": "Towards Precise Scaling Laws for Video Diffusion Transformers",
+    "date": "2024-11-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 34,
+    "id": "2608.17286",
+    "url": "https://huggingface.co/papers/2608.17286",
+    "title": "Abra: Scaling Diffusion Image Training",
+    "date": "2026-08-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 35,
+    "id": "2503.18942",
+    "url": "https://huggingface.co/papers/2503.18942",
+    "title": "Video-T1: Test-Time Scaling for Video Generation",
+    "date": "2025-03-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 36,
+    "id": "2412.14169",
+    "url": "https://huggingface.co/papers/2412.14169",
+    "title": "Autoregressive Video Generation without Vector Quantization",
+    "date": "2024-12-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 37,
+    "id": "2410.08151",
+    "url": "https://huggingface.co/papers/2410.08151",
+    "title": "Progressive Autoregressive Video Diffusion Models",
+    "date": "2024-10-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 38,
+    "id": "2506.01380",
+    "url": "https://huggingface.co/papers/2506.01380",
+    "title": "Playing with Transformer at 30+ FPS via Next-Frame Diffusion",
+    "date": "2025-06-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 39,
+    "id": "2601.05966",
+    "url": "https://huggingface.co/papers/2601.05966",
+    "title": "VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction",
+    "date": "2026-01-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 40,
+    "id": "2609.09123",
+    "url": "https://huggingface.co/papers/2609.09123",
+    "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+    "date": "2026-09-08",
+    "source": "hf-search"
+  },
+  {
+    "n": 41,
+    "id": "2610.08941",
+    "url": "https://huggingface.co/papers/2610.08941",
+    "title": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation",
+    "date": "2026-10-06",
+    "source": "hf-daily"
+  },
+  {
+    "n": 42,
+    "id": "2504.01934",
+    "url": "https://arxiv.org/abs/2504.01934",
+    "title": "ILLUME+: Illuminating Unified MLLM with Dual Visual Tokenization and Diffusion Refinement",
+    "date": "2025-04-02",
+    "source": "arxiv"
+  },
+  {
+    "n": 43,
+    "id": "2603.03276",
+    "url": "https://arxiv.org/abs/2603.03276",
+    "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+    "date": "2026-03-03",
+    "source": "arxiv"
+  },
+  {
+    "n": 44,
+    "id": "2302.05543",
+    "url": "https://arxiv.org/abs/2302.05543",
+    "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+    "date": "2023-02-10",
+    "source": "web"
+  },
+  {
+    "n": 45,
+    "id": "2505.22944",
+    "url": "https://huggingface.co/papers/2505.22944",
+    "title": "ATI: Any Trajectory Instruction for Controllable Video Generation",
+    "date": "2025-05-28",
+    "source": "hf-search"
+  },
+  {
+    "n": 46,
+    "id": "2604.09201",
+    "url": "https://huggingface.co/papers/2604.09201",
+    "title": "CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation",
+    "date": "2026-04-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 47,
+    "id": "2412.07772",
+    "url": "https://huggingface.co/papers/2412.07772",
+    "title": "From Slow Bidirectional to Fast Causal Video Generators",
+    "date": "2024-12-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 48,
+    "id": "2502.07701",
+    "url": "https://huggingface.co/papers/2502.07701",
+    "title": "Magic 1-For-1: Generating One Minute Video Clips within One Minute",
+    "date": "2025-02-11",
+    "source": "hf-search"
+  },
+  {
+    "n": 49,
+    "id": "2506.08009",
+    "url": "https://arxiv.org/abs/2506.08009",
+    "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+    "date": "2025-06-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 50,
+    "id": "2610.06801",
+    "url": "https://huggingface.co/papers/2610.06801",
+    "title": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+    "date": "2026-10-05",
+    "source": "hf-daily"
+  },
+  {
+    "n": 51,
+    "id": "2603.21986",
+    "url": "https://huggingface.co/papers/2603.21986",
+    "title": "Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model",
+    "date": "2026-03-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 52,
+    "id": "2311.17982",
+    "url": "https://arxiv.org/abs/2311.17982",
+    "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+    "date": "2023-11-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 53,
+    "id": "vbench-repo",
+    "url": "https://github.com/vchitect/vbench/",
+    "title": "Vchitect/VBench (GitHub repository and leaderboard)",
+    "date": "2024-08-01",
+    "source": "web"
+  },
+  {
+    "n": 54,
+    "id": "2411.13503",
+    "url": "https://arxiv.org/abs/2411.13503",
+    "title": "VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models",
+    "date": "2024-11-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 55,
+    "id": "2310.11440",
+    "url": "https://arxiv.org/abs/2310.11440",
+    "title": "EvalCrafter: Benchmarking and Evaluating Large Video Generation Models",
+    "date": "2023-10-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 56,
+    "id": "2310.11513",
+    "url": "https://arxiv.org/abs/2310.11513",
+    "title": "GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment",
+    "date": "2023-10-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 57,
+    "id": "2307.06350",
+    "url": "https://arxiv.org/abs/2307.06350",
+    "title": "T2I-CompBench: A Comprehensive Benchmark for Open-world Compositional Text-to-image Generation",
+    "date": "2023-07-12",
+    "source": "web"
+  },
+  {
+    "n": 58,
+    "id": "2408.14468",
+    "url": "https://arxiv.org/abs/2408.14468",
+    "title": "K-Sort Arena: Efficient and Reliable Benchmarking for Generative Models via K-wise Human Preferences",
+    "date": "2024-08-26",
+    "source": "arxiv"
+  },
+  {
+    "n": 59,
+    "id": "2407.05965",
+    "url": "https://arxiv.org/abs/2407.05965",
+    "title": "T2VSafetyBench: Evaluating the Safety of Text-to-Video Generative Models",
+    "date": "2024-07-08",
+    "source": "web"
+  },
+  {
+    "n": 60,
+    "id": "2508.00144",
+    "url": "https://arxiv.org/abs/2508.00144",
+    "title": "World Consistency Score: A Unified Metric for Video Generation Quality",
+    "date": "2025-07-31",
+    "source": "arxiv"
+  },
+  {
+    "n": 61,
+    "id": "2503.06800",
+    "url": "https://arxiv.org/abs/2503.06800",
+    "title": "VideoPhy-2: A Challenging Action-Centric Physical Commonsense Evaluation in Video Generation",
+    "date": "2025-03-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 62,
+    "id": "2610.12442",
+    "url": "https://huggingface.co/papers/2610.12442",
+    "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 63,
+    "id": "2610.12468",
+    "url": "https://huggingface.co/papers/2610.12468",
+    "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 64,
+    "id": "10.1007/s10462-024-10810-6",
+    "url": "https://link.springer.com/article/10.1007/s10462-024-10810-6",
+    "title": "Deepfake video detection: challenges and opportunities",
+    "date": "2024-05-29",
+    "source": "web"
+  }
+]

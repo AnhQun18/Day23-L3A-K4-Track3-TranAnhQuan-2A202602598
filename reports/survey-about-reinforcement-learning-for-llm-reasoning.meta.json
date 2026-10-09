@@ -1,0 +1,40 @@
+{
+  "topic": "survey about reinforcement learning for LLM reasoning",
+  "model": "deepseek-flash",
+  "elapsed_s": 541.8,
+  "subagent_calls": 8,
+  "tool_calls": {
+    "write_todos": 5,
+    "ls": 5,
+    "read_file": 27,
+    "glob": 2,
+    "task": 8,
+    "execute": 28,
+    "write_file": 2,
+    "grep": 5,
+    "edit_file": 25
+  },
+  "tokens": {
+    "input": 5472571,
+    "output": 43181
+  },
+  "n_sources": 44,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ],
+  "token_scope": "lead messages only; excludes subagent usage",
+  "postprocessing": {
+    "method": "deterministic citation mapping in Daytona; provided finalizer and validator",
+    "llm_calls": 0,
+    "exa_calls": 0,
+    "review": "named-paper attribution reviewed; unidentifiable claims removed",
+    "numeric_spotchecks": [
+      "DeepSeekMath GSM8K/MATH",
+      "DAPO AIME 2024",
+      "ReTool AIME 2024"
+    ],
+    "statistics": "original research run retained; correction did not invoke researchers"
+  }
+}

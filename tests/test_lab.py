@@ -205,6 +205,95 @@ class Runner(unittest.TestCase):
             self.assertEqual(research.main('topic'),1)
         self.assertEqual(events,['opened','closed'])
 
+    def test_repair_rehydrates_exact_existing_artifacts(self):
+        from contextlib import nullcontext
+        report,sources = fixture()
+        backend = SimpleNamespace(execute=lambda command: SimpleNamespace(exit_code=0,output='OK: citations'))
+        seed = {research.VALIDATOR_PATH:research.VALIDATOR_SOURCE.read_bytes(),
+                research.FINALIZER_PATH:research.FINALIZER_SOURCE.read_bytes(),
+                research.REPORT_PATH:report.encode(),research.SOURCES_PATH:json.dumps(sources).encode()}
+        agent = unittest.mock.Mock()
+        agent.invoke.return_value={'messages':self.messages()}
+        with tempfile.TemporaryDirectory(dir=research.ROOT) as folder:
+            stem=Path(folder)/'topic'
+            stem.with_suffix('.md').write_bytes(seed[research.REPORT_PATH])
+            stem.with_suffix('.sources.json').write_bytes(seed[research.SOURCES_PATH])
+            with patch('research.REPORTS',Path(folder)),patch('research.make_model'), \
+                 patch('research.open_sandbox',return_value=nullcontext(backend)),patch('research.upload') as upload, \
+                 patch('research.download',return_value=seed),patch('research.build_lead_agent',return_value=agent), \
+                 patch('research.audit_citation_alignment',return_value=[]),patch('research.save_outputs',return_value=stem.with_suffix('.md')):
+                self.assertEqual(research.main('topic',repair=True),0)
+            self.assertEqual(upload.call_args.args[1][research.REPORT_PATH],seed[research.REPORT_PATH])
+            self.assertEqual(stem.with_suffix('.md').read_bytes(),seed[research.REPORT_PATH])
+            self.assertIn('Existing report and sources',agent.invoke.call_args.args[0]['messages'][0]['content'])
+
+    def test_attribution_audit_preserves_report_and_detects_model_flags(self):
+        report, sources = fixture()
+        model = unittest.mock.Mock()
+        model.openai_api_base = 'https://example.org'
+        model.bind.return_value.invoke.return_value.content = json.dumps(
+            {'problems':[{'n':1,'reason':'wrong named paper','suggested_n':2}]})
+        problems = research.audit_citation_alignment(model, report.encode(), json.dumps(sources).encode())
+        self.assertEqual(problems[0]['n'],1)
+        request = model.bind.return_value.invoke.call_args.args[0]
+        data = json.loads(request[1]['content'])
+        self.assertEqual(data[0]['url'],sources[0]['url'])
+        self.assertTrue(data[0]['citation_contexts'])
+        model.bind.return_value.invoke.return_value.content = '{"problems":"invalid"}'
+        with self.assertRaises(RuntimeError):
+            research.audit_citation_alignment(model, report.encode(), json.dumps(sources).encode())
+
+    def test_output_repair_stays_in_same_sandbox(self):
+        from contextlib import contextmanager
+        backend = SimpleNamespace(execute=lambda command: SimpleNamespace(exit_code=0, output='OK: citations'))
+        closed = []
+        @contextmanager
+        def sandbox():
+            try:
+                yield backend
+            finally:
+                closed.append(True)
+        report, sources = fixture()
+        seed = {research.REPORT_PATH:report.encode(), research.SOURCES_PATH:json.dumps(sources).encode(),
+                research.VALIDATOR_PATH: research.VALIDATOR_SOURCE.read_bytes(),
+                research.FINALIZER_PATH: research.FINALIZER_SOURCE.read_bytes()}
+        agent = unittest.mock.Mock()
+        agent.invoke.return_value = {'messages': self.messages()}
+        with patch('research.make_model'), patch('research.open_sandbox', sandbox), patch('research.upload'), \
+             patch('research.download', return_value=seed), patch('research.build_lead_agent', return_value=agent), \
+             patch('research.audit_citation_alignment', return_value=[]), \
+             patch('research.save_outputs', side_effect=[RuntimeError('invalid sandbox outputs: missing heading'), Path('report.md')]):
+            self.assertEqual(research.main('topic'), 0)
+        self.assertEqual(agent.invoke.call_count, 2)
+        self.assertIn('missing heading', agent.invoke.call_args.args[0]['messages'][-1]['content'])
+        self.assertEqual(closed, [True])
+
+    def test_output_repair_has_finite_attempts(self):
+        from contextlib import nullcontext
+        backend = SimpleNamespace(execute=lambda command: SimpleNamespace(exit_code=0, output='OK: citations'))
+        report, sources = fixture()
+        seed = {research.REPORT_PATH:report.encode(), research.SOURCES_PATH:json.dumps(sources).encode(),
+                research.VALIDATOR_PATH: research.VALIDATOR_SOURCE.read_bytes(),
+                research.FINALIZER_PATH: research.FINALIZER_SOURCE.read_bytes()}
+        agent = unittest.mock.Mock()
+        agent.invoke.return_value = {'messages': self.messages()}
+        with patch('research.make_model'), patch('research.open_sandbox', return_value=nullcontext(backend)), \
+             patch('research.upload'), patch('research.download', return_value=seed), \
+             patch('research.build_lead_agent', return_value=agent), \
+             patch('research.audit_citation_alignment', return_value=[]), \
+             patch('research.save_outputs', side_effect=RuntimeError('invalid sandbox outputs: missing heading')):
+            self.assertEqual(research.main('topic'), 1)
+        self.assertEqual(agent.invoke.call_count, 3)
+
+    def test_deepseek_non_thinking_tool_protocol(self):
+        from langchain_openai import ChatOpenAI
+        original = ChatOpenAI(model='deepseek-flash', api_key='test-only', base_url='https://api.deepseek.com')
+        with patch('agents.create_deep_agent') as create:
+            agents.build_lead_agent('backend', original)
+        configured = create.call_args.kwargs['model']
+        self.assertEqual(configured.extra_body, {'thinking': {'type': 'disabled'}})
+        self.assertIsNone(original.extra_body)
+
     def test_agent_configuration(self):
         specs=agents.build_subagents()
         self.assertIsNot(specs[0]['middleware'][0],specs[1]['middleware'][0])
