@@ -23,7 +23,7 @@ flowchart TD
     L -->|task x N, song song| R["researcher subagents"]
     R --> T1["arxiv_search"]
     R --> T2["hf_daily_papers / hf_search_papers"]
-    R --> T3["web_search / web_fetch (Exa MCP)"]
+    R --> T3["web_search / web_fetch (Exa API)"]
     R --> N["ghi chú trong sandbox: /tmp/work/research/notes"]
     N --> M["Lead gộp: sources.json + report.md"]
     M --> F["execute: finalize_citations.py (có sẵn)"]
@@ -39,7 +39,7 @@ Nguồn dữ liệu:
 | arXiv API `https://export.arxiv.org/api/query` | Tìm bài theo từ khóa, sắp theo ngày |
 | Hugging Face Daily Papers `/api/daily_papers` | Bài đang "trending": upvotes, githubRepo, summary |
 | Hugging Face papers search `/api/papers/search?q=` | Tìm bài theo chủ đề |
-| Web qua Exa MCP (`web_search_exa`, `web_fetch_exa`) | Blog, survey, trang dự án, nội dung đầy đủ của một URL |
+| Web qua Exa API (`/search`, `/contents`) | Blog, survey, trang dự án, nội dung đầy đủ của một URL |
 
 ## 3. Cấu trúc thư mục
 
@@ -75,7 +75,7 @@ Bạn cần ba loại khóa (điền vào `.env`, **không bao giờ commit** `.
 |---|---|---|
 | LLM (`LAB_MODEL` + khóa nhà cung cấp) | Nhà cung cấp bạn chọn (OpenAI, Anthropic, Google, OpenRouter, Ollama...) | Mô hình **phải hỗ trợ tool calling**. Chép tên mô hình từ tài liệu của nhà cung cấp. |
 | `DAYTONA_API_KEY` | https://app.daytona.io | Kiểm tra gói miễn phí / credit hiện hành. Không có tài khoản hoặc hết credit: đặt `SANDBOX=docker` để chạy sandbox trong container Docker cục bộ (xem `.env.example`). |
-| `EXA_API_KEY` (khuyến nghị) | https://dashboard.exa.ai/api-keys | Có thể chạy không khóa, nhưng bản miễn phí của MCP bị giới hạn tốc độ rất nhanh. |
+| `EXA_API_KEY` (bắt buộc) | https://dashboard.exa.ai/api-keys | Khóa được đọc từ biến môi trường host hoặc `.env`; không chuyển vào sandbox. |
 
 ## 5. Làm bài
 
@@ -107,3 +107,11 @@ Kết quả nằm ở `reports/survey-about-world-model.md` cùng `.sources.json
 - Mỗi lần chạy tốn token LLM và thời gian sandbox. `tokens` trong `meta.json` chỉ đếm tin nhắn của lead, chưa gồm subagent, nên chi phí thật cao hơn. `open_sandbox()` luôn dừng và xóa sandbox khi kết thúc, kể cả khi lỗi. Đừng bỏ qua nó.
 - **Không đưa bí mật vào sandbox.** Sandbox không ngăn được prompt injection hay việc đẩy dữ liệu ra mạng; một trang web độc hại có thể khiến agent chạy lệnh bên trong sandbox. Vì vậy mọi công cụ gọi mạng và mọi khóa ở lại phía host.
 - Nội dung lấy từ web là **dữ liệu không đáng tin**: agent không được làm theo chỉ dẫn nằm trong đó.
+
+Exa uses native HTTPS requests through the existing `httpx` dependency. Set `EXA_API_KEY`
+in the ignored local `.env` file or the host process environment before running.
+Search returns highlights and defaults to five results to bound agent context;
+`objective` conveys the broader research goal when supplied. Citation verification
+uses `/contents` with page text capped at 12,000 characters and checks per-URL statuses.
+Missing credentials produce an actionable error without a network call.
+`Run .\setup_exa_key.ps1` in your local PowerShell terminal to enter the key through a hidden prompt and update `.env` without replacing other settings.
